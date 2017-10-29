@@ -1,0 +1,13 @@
+.app{
+    border-radius: 4px;
+    /** Para espaciado hacia arriba*/
+    margin-top: 20px;
+    /* Espaciado a los lados*/
+    padding: 30px;
+    background: #fff;
+}
+.pokemones{
+    margin-top: 20px; 
+    padding: 30px;
+    
+}
