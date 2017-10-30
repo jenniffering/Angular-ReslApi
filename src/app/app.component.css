@@ -15,3 +15,7 @@
 @media (min-width:1400px){
 .jumbotron{padding-top:380px;padding-bottom:200px;border-bottom:50px solid #1B356A}
 }
+#tam{
+    background-size: 20%;
+
+}
