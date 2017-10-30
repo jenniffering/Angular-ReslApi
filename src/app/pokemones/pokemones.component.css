@@ -7,7 +7,29 @@
     background: #fff;
 }
 .pokemones{
-    margin-top: 20px; 
-    padding: 30px;
-    
+    background: #fff;
+    margin-bottom: 30px;   
+    border:1px solid #f8f8f8;
+}
+#cuadro:hover {
+    border: 2px solid #2F4F4F;
+}
+
+.c{
+    margin-top: 20px;
+    /* Espaciado a los lados*/
+    padding: 50px;
+    padding-bottom: 40px;
+}
+img{
+    width: 200px;
+}
+.pokedex-pokemon-id{
+    background-color:#D2B4DE;
+}
+h3{
+    color: #fff;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom: 0px;
 }

@@ -1,13 +1,12 @@
-<div class="pokemones" align="center">
+<div align="center" class="c">
 <div class="row">
-    <div class="col-sm-3" *ngFor="let p of pokemon">
-      <div class="pokedex-pokemon-id">
-        {{ p.id }}
-      </div>
+    <div  class="col-sm-6 col-md-3" *ngFor="let p of pokemon">
+      <div id="cuadro"class="pokemones">
       <img [ngClass]="{'hidden': !p.imageLoaded}" class="pokedex-pokemon-sprite" (load)="p.imageLoaded = true" [attr.src]="p.sprite">
-      <div class="pokedex-pokemon-name">
-        {{ p.name | capitalize }}
+      <div class="pokedex-pokemon-id">
+          <h3>{{ p.name | capitalize }}</h3>
       </div>
+    </div>
     </div>
   </div>
 </div>
